@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0BDE4E12817A55400E9A062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDE4E02817A55400E9A062 /* AppDelegate.swift */; };
+		D0BDE4E32817A55400E9A062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDE4E22817A55400E9A062 /* SceneDelegate.swift */; };
+		D0BDE4E52817A55400E9A062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDE4E42817A55400E9A062 /* ViewController.swift */; };
+		D0BDE4E82817A55400E9A062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BDE4E62817A55400E9A062 /* Main.storyboard */; };
+		D0BDE4EA2817A55700E9A062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BDE4E92817A55700E9A062 /* Assets.xcassets */; };
+		D0BDE4ED2817A55700E9A062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BDE4EB2817A55700E9A062 /* LaunchScreen.storyboard */; };
+		D0BDE4F82817A55700E9A062 /* DropMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDE4F72817A55700E9A062 /* DropMenuTests.swift */; };
+		D0BDE5022817A55700E9A062 /* DropMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDE5012817A55700E9A062 /* DropMenuUITests.swift */; };
+		D0BDE5042817A55700E9A062 /* DropMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDE5032817A55700E9A062 /* DropMenuUITestsLaunchTests.swift */; };
+		D0BDE5122817ABC400E9A062 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDE5102817ABC400E9A062 /* MyCell.swift */; };
+		D0BDE5132817ABC400E9A062 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BDE5112817ABC400E9A062 /* MyCell.xib */; };
+		F1A88D889C737EB7263162BA /* Pods_DropMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E53F65131616532F6F4BD58 /* Pods_DropMenu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0BDE4F42817A55700E9A062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BDE4D52817A55400E9A062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BDE4DC2817A55400E9A062;
+			remoteInfo = DropMenu;
+		};
+		D0BDE4FE2817A55700E9A062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0BDE4D52817A55400E9A062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0BDE4DC2817A55400E9A062;
+			remoteInfo = DropMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E53F65131616532F6F4BD58 /* Pods_DropMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE1F583EA534096F7DEAB80 /* Pods-DropMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropMenu.release.xcconfig"; path = "Target Support Files/Pods-DropMenu/Pods-DropMenu.release.xcconfig"; sourceTree = "<group>"; };
+		D0BDE4DD2817A55400E9A062 /* DropMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BDE4E02817A55400E9A062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0BDE4E22817A55400E9A062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0BDE4E42817A55400E9A062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0BDE4E72817A55400E9A062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0BDE4E92817A55700E9A062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BDE4EC2817A55700E9A062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BDE4EE2817A55700E9A062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BDE4F32817A55700E9A062 /* DropMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BDE4F72817A55700E9A062 /* DropMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropMenuTests.swift; sourceTree = "<group>"; };
+		D0BDE4FD2817A55700E9A062 /* DropMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BDE5012817A55700E9A062 /* DropMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropMenuUITests.swift; sourceTree = "<group>"; };
+		D0BDE5032817A55700E9A062 /* DropMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0BDE5102817ABC400E9A062 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		D0BDE5112817ABC400E9A062 /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		E1907ED30BBC422D4C45E732 /* Pods-DropMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropMenu.debug.xcconfig"; path = "Target Support Files/Pods-DropMenu/Pods-DropMenu.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BDE4DA2817A55400E9A062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A88D889C737EB7263162BA /* Pods_DropMenu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BDE4F02817A55700E9A062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BDE4FA2817A55700E9A062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8BFFEC882C5C6C3446D032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1907ED30BBC422D4C45E732 /* Pods-DropMenu.debug.xcconfig */,
+				9DE1F583EA534096F7DEAB80 /* Pods-DropMenu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0BDE4D42817A55400E9A062 = {
+			isa = PBXGroup;
+			children = (
+				D0BDE4DF2817A55400E9A062 /* DropMenu */,
+				D0BDE4F62817A55700E9A062 /* DropMenuTests */,
+				D0BDE5002817A55700E9A062 /* DropMenuUITests */,
+				D0BDE4DE2817A55400E9A062 /* Products */,
+				2C8BFFEC882C5C6C3446D032 /* Pods */,
+				FE8BE5AAD8B56B545D454994 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BDE4DE2817A55400E9A062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BDE4DD2817A55400E9A062 /* DropMenu.app */,
+				D0BDE4F32817A55700E9A062 /* DropMenuTests.xctest */,
+				D0BDE4FD2817A55700E9A062 /* DropMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BDE4DF2817A55400E9A062 /* DropMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D0BDE4E02817A55400E9A062 /* AppDelegate.swift */,
+				D0BDE4E22817A55400E9A062 /* SceneDelegate.swift */,
+				D0BDE4E42817A55400E9A062 /* ViewController.swift */,
+				D0BDE4E62817A55400E9A062 /* Main.storyboard */,
+				D0BDE4E92817A55700E9A062 /* Assets.xcassets */,
+				D0BDE4EB2817A55700E9A062 /* LaunchScreen.storyboard */,
+				D0BDE4EE2817A55700E9A062 /* Info.plist */,
+				D0BDE5102817ABC400E9A062 /* MyCell.swift */,
+				D0BDE5112817ABC400E9A062 /* MyCell.xib */,
+			);
+			path = DropMenu;
+			sourceTree = "<group>";
+		};
+		D0BDE4F62817A55700E9A062 /* DropMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BDE4F72817A55700E9A062 /* DropMenuTests.swift */,
+			);
+			path = DropMenuTests;
+			sourceTree = "<group>";
+		};
+		D0BDE5002817A55700E9A062 /* DropMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0BDE5012817A55700E9A062 /* DropMenuUITests.swift */,
+				D0BDE5032817A55700E9A062 /* DropMenuUITestsLaunchTests.swift */,
+			);
+			path = DropMenuUITests;
+			sourceTree = "<group>";
+		};
+		FE8BE5AAD8B56B545D454994 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E53F65131616532F6F4BD58 /* Pods_DropMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BDE4DC2817A55400E9A062 /* DropMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BDE5072817A55700E9A062 /* Build configuration list for PBXNativeTarget "DropMenu" */;
+			buildPhases = (
+				361EA084BD234E506F6FF7F5 /* [CP] Check Pods Manifest.lock */,
+				D0BDE4D92817A55400E9A062 /* Sources */,
+				D0BDE4DA2817A55400E9A062 /* Frameworks */,
+				D0BDE4DB2817A55400E9A062 /* Resources */,
+				1C2E46C78D72763EC5745B56 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropMenu;
+			productName = DropMenu;
+			productReference = D0BDE4DD2817A55400E9A062 /* DropMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0BDE4F22817A55700E9A062 /* DropMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BDE50A2817A55700E9A062 /* Build configuration list for PBXNativeTarget "DropMenuTests" */;
+			buildPhases = (
+				D0BDE4EF2817A55700E9A062 /* Sources */,
+				D0BDE4F02817A55700E9A062 /* Frameworks */,
+				D0BDE4F12817A55700E9A062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BDE4F52817A55700E9A062 /* PBXTargetDependency */,
+			);
+			name = DropMenuTests;
+			productName = DropMenuTests;
+			productReference = D0BDE4F32817A55700E9A062 /* DropMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0BDE4FC2817A55700E9A062 /* DropMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BDE50D2817A55700E9A062 /* Build configuration list for PBXNativeTarget "DropMenuUITests" */;
+			buildPhases = (
+				D0BDE4F92817A55700E9A062 /* Sources */,
+				D0BDE4FA2817A55700E9A062 /* Frameworks */,
+				D0BDE4FB2817A55700E9A062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BDE4FF2817A55700E9A062 /* PBXTargetDependency */,
+			);
+			name = DropMenuUITests;
+			productName = DropMenuUITests;
+			productReference = D0BDE4FD2817A55700E9A062 /* DropMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BDE4D52817A55400E9A062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D0BDE4DC2817A55400E9A062 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D0BDE4F22817A55700E9A062 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D0BDE4DC2817A55400E9A062;
+					};
+					D0BDE4FC2817A55700E9A062 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D0BDE4DC2817A55400E9A062;
+					};
+				};
+			};
+			buildConfigurationList = D0BDE4D82817A55400E9A062 /* Build configuration list for PBXProject "DropMenu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BDE4D42817A55400E9A062;
+			productRefGroup = D0BDE4DE2817A55400E9A062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BDE4DC2817A55400E9A062 /* DropMenu */,
+				D0BDE4F22817A55700E9A062 /* DropMenuTests */,
+				D0BDE4FC2817A55700E9A062 /* DropMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BDE4DB2817A55400E9A062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BDE4ED2817A55700E9A062 /* LaunchScreen.storyboard in Resources */,
+				D0BDE5132817ABC400E9A062 /* MyCell.xib in Resources */,
+				D0BDE4EA2817A55700E9A062 /* Assets.xcassets in Resources */,
+				D0BDE4E82817A55400E9A062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BDE4F12817A55700E9A062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BDE4FB2817A55700E9A062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C2E46C78D72763EC5745B56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropMenu/Pods-DropMenu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropMenu/Pods-DropMenu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DropMenu/Pods-DropMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		361EA084BD234E506F6FF7F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BDE4D92817A55400E9A062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BDE4E52817A55400E9A062 /* ViewController.swift in Sources */,
+				D0BDE5122817ABC400E9A062 /* MyCell.swift in Sources */,
+				D0BDE4E12817A55400E9A062 /* AppDelegate.swift in Sources */,
+				D0BDE4E32817A55400E9A062 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BDE4EF2817A55700E9A062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BDE4F82817A55700E9A062 /* DropMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BDE4F92817A55700E9A062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BDE5042817A55700E9A062 /* DropMenuUITestsLaunchTests.swift in Sources */,
+				D0BDE5022817A55700E9A062 /* DropMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0BDE4F52817A55700E9A062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BDE4DC2817A55400E9A062 /* DropMenu */;
+			targetProxy = D0BDE4F42817A55700E9A062 /* PBXContainerItemProxy */;
+		};
+		D0BDE4FF2817A55700E9A062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0BDE4DC2817A55400E9A062 /* DropMenu */;
+			targetProxy = D0BDE4FE2817A55700E9A062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0BDE4E62817A55400E9A062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BDE4E72817A55400E9A062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0BDE4EB2817A55700E9A062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BDE4EC2817A55700E9A062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0BDE5052817A55700E9A062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0BDE5062817A55700E9A062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BDE5082817A55700E9A062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1907ED30BBC422D4C45E732 /* Pods-DropMenu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DropMenu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedragab.DropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0BDE5092817A55700E9A062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE1F583EA534096F7DEAB80 /* Pods-DropMenu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DropMenu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedragab.DropMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0BDE50B2817A55700E9A062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedragab.DropMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropMenu.app/DropMenu";
+			};
+			name = Debug;
+		};
+		D0BDE50C2817A55700E9A062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedragab.DropMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropMenu.app/DropMenu";
+			};
+			name = Release;
+		};
+		D0BDE50E2817A55700E9A062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedragab.DropMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DropMenu;
+			};
+			name = Debug;
+		};
+		D0BDE50F2817A55700E9A062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ahmedragab.DropMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DropMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BDE4D82817A55400E9A062 /* Build configuration list for PBXProject "DropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BDE5052817A55700E9A062 /* Debug */,
+				D0BDE5062817A55700E9A062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BDE5072817A55700E9A062 /* Build configuration list for PBXNativeTarget "DropMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BDE5082817A55700E9A062 /* Debug */,
+				D0BDE5092817A55700E9A062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BDE50A2817A55700E9A062 /* Build configuration list for PBXNativeTarget "DropMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BDE50B2817A55700E9A062 /* Debug */,
+				D0BDE50C2817A55700E9A062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BDE50D2817A55700E9A062 /* Build configuration list for PBXNativeTarget "DropMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BDE50E2817A55700E9A062 /* Debug */,
+				D0BDE50F2817A55700E9A062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0BDE4D52817A55400E9A062 /* Project object */;
+}
